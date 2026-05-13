@@ -8,16 +8,19 @@ import { fadeUp, stagger, viewport } from '@/lib/motion';
 
 const footerLinks = {
   Company: [
-    { label: 'About',      href: '#about' },
-    { label: 'Services',   href: '#services' },
-    { label: 'Technology', href: '#technology' },
-    { label: 'Contact',    href: '#contact' },
+    { label: 'About',        href: '/#about' },
+    { label: 'Services',     href: '/#services' },
+    { label: 'Case Studies', href: '/services/case-studies' },
+    { label: 'Blog',         href: '/blog' },
+    { label: 'Career',     href: '/career' },
+    { label: 'Contact',      href: '/#contact' },
   ],
-  Technology: [
-    { label: 'EIT Assembly',          href: '#technology' },
-    { label: 'Data Engineering',      href: '#services' },
-    { label: 'Cloud Infrastructure',  href: '#services' },
-    { label: 'Software Dev',          href: '#services' },
+  Services: [
+    { label: 'Data Analytics & BI',     href: '/services/enari-services-datenanalyse' },
+    { label: 'Data Engineering',        href: '/services/data-engineering-und-data-warehouse-consulting' },
+    { label: 'DevOps & Cloud',          href: '/services/devops-und-cloud-infrastruktur-consulting' },
+    { label: 'AI & MLOps',              href: '/services/kuenstliche-intelligenz-und-mlops' },
+    { label: 'Data ROI Pit Stop',       href: '/services/data-roi' },
   ],
 };
 

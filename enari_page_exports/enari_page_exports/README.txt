@@ -39,4 +39,4 @@ Requested URLs included in the scraper:
 - https://enari.com/data-mesh-prinzipien/
 - https://enari.com/datenprodukte-in-data-mesh-infrastruktur/
 - https://enari.com/services/case-studies/
-- https://enari.com/karriere/
+- https://enari.com/Career/
