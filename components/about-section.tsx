@@ -117,7 +117,7 @@ export function AboutSection() {
                   variants={fadeUp}
                   className="flex gap-4"
                 >
-                  <div className="mt-0.5 p-2.5 rounded-xl bg-surface-elevated border border-enari-border text-enari-blue shrink-0">
+                  <div className="mt-0.5 p-2.5 rounded-xl bg-surface-elevated border border-enari-border text-enari-blue shrink-0 flex" style={{ alignItems: "center" }}>
                     <Icon size={16} strokeWidth={1.5} />
                   </div>
                   <div>

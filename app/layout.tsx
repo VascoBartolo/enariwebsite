@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={aeonik.variable}>
-      <body className="font-sans bg-background text-white antialiased">
+      <body className="font-sans bg-background text-white antialiased overflow-x-hidden">
         <LoadingScreen />
         {children}
       </body>

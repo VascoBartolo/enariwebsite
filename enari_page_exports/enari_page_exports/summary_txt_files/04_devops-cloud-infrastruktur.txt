@@ -1,0 +1,20 @@
+Source: https://enari.com/services/devops-und-cloud-infrastruktur-consulting/
+Page type: Service landing page
+Note: This file is a paraphrased content summary, not a verbatim copy of the page.
+
+Overview
+This page describes Enari's DevOps and cloud infrastructure consulting. It focuses on scalable, automated IT processes and modern cloud-native delivery.
+
+Main message
+Modern software requires fast release cycles, stable systems, and flexible infrastructure. Enari helps align development and operations with cloud, CI/CD, infrastructure-as-code, Kubernetes, and monitoring.
+
+Core sections
+- Tool ecosystem references: Docker, Kubernetes, Terraform, Azure, AWS, GCP.
+- Three-step process: workshop/assessment, architecture design/implementation, testing/monitoring/continuous improvement.
+- Implementation areas: Kubernetes, Terraform, CI/CD pipelines, load balancing, high availability, monitoring and observability.
+- Why Enari: industry experience, white-label solutions, platform-agnostic delivery.
+- Related content: data products, data assessment, ETL.
+- Contact section: Bastian Knaus and booking CTA.
+
+Content themes
+DevOps, cloud infrastructure, CI/CD, Kubernetes, Terraform, IaC, monitoring, observability, performance optimization, Azure, AWS, GCP.

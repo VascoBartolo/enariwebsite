@@ -1,0 +1,21 @@
+Source: https://enari.com/datenprodukte-in-data-mesh-infrastruktur/
+Page type: Blog article
+Author shown on page: Bastian Knaus, Co-Founder
+Note: This file is a paraphrased content summary, not a verbatim copy of the page.
+
+Overview
+This article explains the role of data products inside a Data Mesh architecture. It covers definitions, design principles, lifecycle, technology considerations, business benefits, and use cases.
+
+Main message
+Data products are the central building blocks of Data Mesh. They turn raw data into curated, reusable, governed, user-oriented resources that domain teams own and improve over time.
+
+Core sections
+- Data products enable decentralized data management and analytics.
+- Characteristics: curated datasets, findability, accessibility, security, usability, metadata, quality and governance standards.
+- Difference from traditional assets: designed for user needs and reuse rather than isolated storage.
+- Role in Data Mesh: supports decentralization, domain-oriented design, ownership of quality and utility.
+- Lifecycle: creation, publication, maintenance, monitoring, and iteration.
+- Technology: catalog systems, data platforms, governance/security, pipelines and quality controls.
+
+Content themes
+Data products, Data Mesh, domain ownership, metadata, governance, quality, discoverability, data lifecycle, reusable datasets.

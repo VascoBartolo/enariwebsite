@@ -1,0 +1,20 @@
+Source: https://enari.com/data-mesh-idee-und-ursprung/
+Page type: Blog article
+Author shown on page: Bastian Knaus, Co-Founder
+Note: This file is a paraphrased content summary, not a verbatim copy of the page.
+
+Overview
+This article explains the origin of the Data Mesh concept and why it emerged as a response to limitations in centralized data architectures.
+
+Main message
+Traditional centralized data governance and monolithic data platforms can become bottlenecks as organizations grow. Data Mesh shifts ownership to domain teams and treats data as a product to improve scalability, agility, and trust.
+
+Core sections
+- Origin: Data Mesh is linked to Zhamak Dehghani and her work on moving beyond monolithic data lakes.
+- Problems: scalability limits, bottlenecks, data quality and trust issues, insufficient empowerment of domain teams.
+- Solutions: decentralized ownership, data as product, self-serve infrastructure, federated computational governance.
+- Challenges: coordination, cultural change, consistent standards, implementation complexity.
+- Enari positioning: Enari can support design and implementation of Data Mesh concepts.
+
+Content themes
+Data Mesh origin, Zhamak Dehghani, monolithic data lake limitations, decentralized ownership, data products, self-serve infrastructure, federated governance.

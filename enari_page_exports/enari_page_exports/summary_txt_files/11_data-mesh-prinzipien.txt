@@ -1,0 +1,19 @@
+Source: https://enari.com/data-mesh-prinzipien/
+Page type: Blog article
+Author shown on page: Bastian Knaus, Co-Founder
+Note: This file is a paraphrased content summary, not a verbatim copy of the page.
+
+Overview
+This article explains the core principles of Data Mesh and how they address limitations of centralized data systems.
+
+Main message
+Data Mesh decentralizes data responsibility and changes the view of data from passive asset to managed product. This helps organizations improve scalability, data quality, accountability, and speed.
+
+Core sections
+- Problem framing: centralized systems struggle with silos, slow access, scalability, and bottlenecks.
+- What Data Mesh is: a decentralized data architecture with responsibility distributed across business domains.
+- Core principles: domain ownership, data as a product, self-serve data infrastructure, federated governance, collaboration, discoverability, standardization, and accountability.
+- Enari positioning: Enari can support implementation and adaptation of the principles.
+
+Content themes
+Domain ownership, data as a product, self-serve infrastructure, federated governance, decentralized data management, data quality, scalability.

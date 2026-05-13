@@ -1,0 +1,20 @@
+Source: https://enari.com/data-mesh-vs-data-spaces-was-ist-der-unterschied/
+Page type: Blog article
+Author shown on page: Bastian Knaus, Co-Founder
+Note: This file is a paraphrased content summary, not a verbatim copy of the page.
+
+Overview
+This article compares Data Mesh and Data Spaces, two concepts that are often confused. It explains definitions, principles, similarities, differences, and typical use cases.
+
+Main message
+Data Mesh focuses on decentralized data ownership within one organization. Data Spaces focus on secure and sovereign data exchange across organizations and ecosystems. Both concepts emphasize governance, security, decentralization, and data product thinking, but they operate at different scopes.
+
+Core sections
+- Data Mesh: decentralized management, domain ownership, data as product, self-serve infrastructure, federated governance.
+- Data Space: secure data exchange, interoperability, data sovereignty, shared governance, trust and security.
+- Similarities: decentralization, data as a product, governance and security.
+- Differences: organizational scope, governance model, infrastructure and implementation.
+- Use cases: large corporations, agile teams, diverse data sources, cross-industry collaboration, public sector, research and innovation.
+
+Content themes
+Data Mesh, Data Spaces, EU Data Act, data sovereignty, interoperability, governance, decentralized architecture, data products.

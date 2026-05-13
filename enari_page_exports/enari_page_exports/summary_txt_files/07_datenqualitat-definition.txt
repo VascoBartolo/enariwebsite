@@ -1,0 +1,20 @@
+Source: https://enari.com/datenqualitat-definition-was-ist-datenqualitat/
+Page type: Blog article
+Author shown on page: Bastian Knaus, Co-Founder
+Note: This file is a paraphrased content summary, not a verbatim copy of the page.
+
+Overview
+This article explains what data quality means and why it matters. It introduces a practical definition, discusses five dimensions of data quality, references ISO 8000, and describes business consequences of poor data quality.
+
+Main message
+Data quality is about whether data is fit for a specific purpose. Bad data affects reporting, AI/ML, trust in analytics, costs, strategic decisions, reputation, and compliance.
+
+Core sections
+- Five dimensions: correctness, completeness, timeliness/currentness, uniqueness, consistency.
+- ISO 8000: an international framework for data quality, especially relevant for data exchange, supply chains, health data, and cross-organization use.
+- Damage from poor data quality: distorted reporting, negative effects on AI/ML, reduced trust, economic and strategic losses, reputational and compliance risk.
+- Causes of poor data quality: manual errors, missing standards, missing validations, and fragmented processes.
+- Enari support: data quality is tied to assessments, data engineering, governance, and analytics work.
+
+Content themes
+Data quality, ISO 8000, analytics trust, BI reliability, ML data readiness, governance, data cleaning, data standards.

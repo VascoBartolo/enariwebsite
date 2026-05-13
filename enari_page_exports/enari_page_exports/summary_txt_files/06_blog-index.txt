@@ -1,0 +1,17 @@
+Source: https://enari.com/blog/
+Page type: Blog index
+Note: This file is a paraphrased content summary, not a verbatim copy of the page.
+
+Overview
+The blog page is a simple index listing Enari's available articles. The visible posts are focused on data quality, ETL, Data Mesh, Data Spaces, and data products.
+
+Listed topics
+- Data quality definition and what data quality means.
+- ETL definition and overview.
+- Data Mesh versus Data Spaces.
+- Data Mesh idea and origin.
+- Data Mesh principles.
+- Data products in Data Mesh infrastructure.
+
+Content themes
+Data management education, data quality, ETL fundamentals, Data Mesh, Data Spaces, data products.

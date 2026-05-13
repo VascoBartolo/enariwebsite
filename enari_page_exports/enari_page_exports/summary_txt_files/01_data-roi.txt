@@ -1,0 +1,23 @@
+Source: https://enari.com/services/data-roi/
+Page type: Service landing page
+Note: This file is a paraphrased content summary, not a verbatim copy of the page.
+
+Overview
+The page presents Enari's Data ROI Pit Stop as a compact consulting format for companies that need clarity before investing in a data initiative. The central business questions are whether a planned data project is technically feasible and whether the expected value justifies the investment.
+
+Main message
+The offer is positioned as a fast decision-support process. Enari helps clients evaluate business goals, existing data, technical feasibility, ROI potential, and next steps before committing to a larger implementation project.
+
+Core sections
+- Initial problem: many companies hesitate because they cannot judge feasibility or economic value.
+- Four-step framework: kickoff and goal clarification, discovery workshop, analysis and action planning, and decision report.
+- Why Enari: practical founder experience, cross-industry neutrality, tested process, speed, and actionable output.
+- Feasibility track: problem definition, success metrics, data/infrastructure assessment, and a recommendation.
+- Profitability track: scope, budget, operating effort, ROI calculation, and recommendation.
+- Three-step journey: uncertainty, Pit Stop, and informed decision.
+- Case-study reference: BayWa example around LLM-based master data optimization.
+- FAQ: target customers, process, expected outputs, pricing starting point, and timeline.
+- Contact section: Bastian Knaus, COO and Co-Founder, with contact form and booking CTA.
+
+Content themes
+ROI validation, feasibility checks, stakeholder workshops, data assessment, infrastructure review, decision reports, business case development, data project prioritization.

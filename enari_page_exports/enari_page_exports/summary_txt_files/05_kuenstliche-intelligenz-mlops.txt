@@ -1,0 +1,20 @@
+Source: https://enari.com/services/kuenstliche-intelligenz-und-mlops/
+Page type: Service landing page
+Note: This file is a paraphrased content summary, not a verbatim copy of the page.
+
+Overview
+This page presents Enari's AI and MLOps consulting service. It covers the path from idea and prototype to deployment, monitoring, retraining, and long-term MLOps culture.
+
+Main message
+AI projects need structured development processes that connect data processing, model development, deployment, and ongoing improvement. Enari offers consulting to build production-ready AI workflows with ROI focus.
+
+Core sections
+- Technology references: TensorFlow, PyTorch, MLflow.
+- Key benefits: prototypes, deployment, retraining cycle, custom ROI-oriented solutions, current technology.
+- Three-step process: workshop/assessment, architecture design/implementation, deployment/monitoring/continuous improvement.
+- Why Enari: industry experience, white-label delivery, platform-agnostic execution.
+- Related content: data assessment, data products, ETL.
+- Contact section: Bastian Knaus and booking CTA.
+
+Content themes
+AI, ML, MLOps, model deployment, CI/CD for ML, preprocessing pipelines, MLflow, monitoring, retraining, AI architecture.

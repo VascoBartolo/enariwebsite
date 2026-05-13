@@ -1,0 +1,21 @@
+Source: https://enari.com/services/enari-services-datenanalyse/
+Page type: Service landing page
+Note: This file is a paraphrased content summary, not a verbatim copy of the page.
+
+Overview
+This page presents Enari's data analytics and BI consulting service. The focus is helping companies turn raw data into insights, reporting, dashboards, and better operational or strategic decisions.
+
+Main message
+Companies should not only collect data but use it profitably. Enari positions the service as a way to create clarity, reveal patterns, improve planning, and establish analytics/reporting as a business standard.
+
+Core sections
+- Hero message: data potential, reporting dashboards, experienced consultants, clear reporting, data-driven decisions.
+- Why BI and analytics consulting is needed: raw data must be converted into actionable insight.
+- Three-step process: workshop, data analysis, dashboard/report rollout.
+- Practical reporting examples: data assessment reports, Power BI/Tableau, prototypes, and final dashboards.
+- Why Enari: industry experience, white-label solutions, platform-agnostic delivery.
+- Related content: ETL, data products in Data Mesh infrastructure, and data assessment.
+- Contact section: Bastian Knaus and consultation booking CTA.
+
+Content themes
+Data analytics, BI, dashboards, Power BI, Tableau, KPI tracking, reporting rollout, data quality analysis, business insight generation.

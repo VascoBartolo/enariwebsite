@@ -1,0 +1,20 @@
+Source: https://enari.com/services/case-studies/
+Page type: Case studies landing page
+Note: This file is a paraphrased content summary, not a verbatim copy of the page.
+
+Overview
+This page positions Enari as a proven partner for data analytics, data engineering, DevOps/cloud, and AI projects. It highlights past project examples and routes visitors to case-study documents.
+
+Main message
+Enari emphasizes fast execution, ROI focus, and long-term customer relationships. The page connects proof points to service categories.
+
+Core sections
+- Hero: Enari as a proven partner with service categories.
+- Use cases: LLM-based master data optimization for BayWa and automated image analysis for hybrid materials.
+- Performance claim: 72 percent of customers are described as choosing long-term collaboration.
+- Service pathways: Data Analytics and BI, Data Engineering and Data Warehouse, DevOps and Cloud Native Infrastructure, AI and MLOps.
+- CTA: users are invited to describe a project or challenge.
+- Contact section: Bastian Knaus, contact form, and booking CTA.
+
+Content themes
+Case studies, ROI, AI, MLOps, image analysis, master data, data analytics, cloud, long-term collaboration.

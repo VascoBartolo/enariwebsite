@@ -353,7 +353,7 @@ export const HeroFuturistic = () => {
         </div>
       </div>
 
-      {/* Scroll button */}
+      {/* Scroll button
       <button
         className="explore-btn pointer-events-auto"
         style={{ animationDelay: '2.4s' }}
@@ -382,7 +382,7 @@ export const HeroFuturistic = () => {
             />
           </svg>
         </span>
-      </button>
+      </button> */}
 
       <Canvas
         flat

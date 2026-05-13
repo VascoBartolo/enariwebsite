@@ -1,0 +1,21 @@
+Source: https://enari.com/services/data-engineering-und-data-warehouse-consulting/
+Page type: Service landing page
+Note: This file is a paraphrased content summary, not a verbatim copy of the page.
+
+Overview
+This page describes Enari's data engineering and data warehouse consulting. It focuses on reliable, scalable data foundations for analytics, reporting, and AI.
+
+Main message
+Without a strong data foundation, downstream analytics and AI projects will fail or produce limited value. Enari helps clients orchestrate data sources, build ETL/ELT pipelines, and create sustainable warehouse architectures.
+
+Core sections
+- Hero message: reliable and scalable data as a basis for data-driven decisions.
+- Key benefits: integration of multiple sources, stable pipelines, future-proof warehouse concepts.
+- Three-step process: workshop, pipeline/warehouse build, testing and rollout.
+- Reporting examples: documentation of goals, metrics, process, visual analysis, and next steps.
+- Why Enari: industry experience, white-label delivery, cloud/on-prem/hybrid/embedded support.
+- Related content: ETL, data products, data assessment.
+- Contact section: Bastian Knaus and booking CTA.
+
+Content themes
+ETL, ELT, data pipelines, data warehouse, data architecture, data integration, data quality, data platform implementation.

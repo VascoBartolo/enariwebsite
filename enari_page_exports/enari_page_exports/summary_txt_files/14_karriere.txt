@@ -1,0 +1,29 @@
+Source: https://enari.com/karriere/
+Page type: Careers page
+Note: This file is a paraphrased content summary, not a verbatim copy of the page.
+
+Overview
+The careers page states that all positions are currently filled, while still inviting strong applications because new roles may be created in the future. It then describes two role profiles: Software Developer and Cloud Engineer.
+
+Main message
+Enari is looking for reliable technical people who can work in a small, dynamic team on cloud services and the company's sports/MedTech product. The page emphasizes learning, responsibility, flexibility, and a startup-like team environment.
+
+Current status
+- No positions are currently open according to the page.
+- Applications are still encouraged for future roles.
+
+Role profile: Software Developer
+- Cloud service support and product development.
+- Full-time or part-time.
+- Requirements and preferences include German C1, Python, Java, optional C++, C#, ASP.NET, React, Docker, Kubernetes/Helm, CI/CD, REST APIs, Azure/AWS, Terraform/Terragrunt, Data Spaces, microcontrollers, ML, and Databricks.
+
+Role profile: Cloud Engineer
+- Cloud services and product development.
+- Full-time or part-time.
+- Requirements and preferences include German C1, IaC with Terraform/Terragrunt, CI/CD, Azure/AWS, Python/.NET/Java/React/Spark/SQL, Docker, Kubernetes/Helm, Data Spaces, microcontrollers, ML, and Databricks.
+
+Benefits and environment
+Young MedTech and AI company, varied cloud/data-science tasks, family-like team, high ownership, flexible hours, and remote-work options.
+
+Content themes
+Careers, software developer, cloud engineer, Python, Java, Azure, AWS, Docker, Kubernetes, Terraform, CI/CD, Data Spaces, ML, Databricks, flexible work.
