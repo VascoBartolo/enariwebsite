@@ -31,14 +31,13 @@ extend(THREE as any);
 
 // ─── Post Processing ──────────────────────────────────────────────────────────
 const PostProcessing = ({
-  strength = 1,
+  strength = 0.75,
   threshold = 1,
 }: {
   strength?: number;
   threshold?: number;
 }) => {
   const { gl, scene, camera } = useThree();
-  const progressRef = useRef<any>({ value: 0 });
 
   const fx = useMemo(() => {
     const pp = new (THREE as any).PostProcessing(gl);
@@ -46,27 +45,12 @@ const PostProcessing = ({
     const sceneColor = scenePass.getTextureNode('output');
     const bloomPass = bloom(sceneColor, strength, 0.5, threshold);
 
-    const uScanProgress = uniform(0);
-    progressRef.current = uScanProgress;
-
-    const uvY = uv().y;
-    const scanLine = smoothstep(0, float(0.05), abs(uvY.sub(uScanProgress)));
-
-    // Softer scan glow using the same dark teal family as your dots.
-    const scanGlow = vec3(0.02, 0.298, 0.329).mul(0.18);
-    const scanFactor = smoothstep(0.9, 1.0, oneMinus(scanLine));
-
-    const withScan = mix(sceneColor, sceneColor.add(scanGlow), scanFactor);
-
-    pp.outputNode = withScan.add(bloomPass);
+    pp.outputNode = sceneColor.add(bloomPass);
 
     return pp;
   }, [camera, gl, scene, strength, threshold]);
 
-  useFrame(({ clock }) => {
-    progressRef.current.value =
-      Math.sin(clock.getElapsedTime() * 0.5) * 0.5 + 0.5;
-
+  useFrame(() => {
     fx.renderAsync();
   }, 1);
 
