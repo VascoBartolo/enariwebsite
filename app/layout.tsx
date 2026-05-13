@@ -21,6 +21,9 @@ export const metadata: Metadata = {
     'sport biotech', 'EIT wearable', 'athlete performance', 'muscle monitoring',
     'cloud infrastructure', 'data engineering', 'software development',
   ],
+  icons: {
+    icon: '/favicon.png',
+  },
   openGraph: {
     title: 'Enari — Sport Biotech & Technology',
     description: 'Engineering human performance through precision biotech and cutting-edge technology.',

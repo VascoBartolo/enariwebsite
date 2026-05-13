@@ -22,7 +22,6 @@ import {
   uv,
   vec2,
   vec3,
-  vec4,
 } from 'three/tsl';
 
 const TEXTUREMAP = { src: 'https://i.postimg.cc/XYwvXN8D/img-4.png' };
@@ -163,12 +162,19 @@ const Scene = () => {
      * This preserves the glowing dot style but uses your darker gradient mask.
      */
     const finalRGB = screen(tMap.rgb, mask);
-    const final = vec4(finalRGB, tMap.a);
 
     const mat = new (THREE as any).MeshBasicNodeMaterial({
-      colorNode: final,
+      colorNode: finalRGB,
+
+      // This replaces the previous vec4(finalRGB, tMap.a)
+      // and restores the original texture transparency.
+      // opacityNode: tMap.a,
+
       transparent: true,
       opacity: 0,
+
+      // Helps prevent transparent pixels from writing into the scene/postprocess.
+      depthWrite: false,
     });
 
     return {

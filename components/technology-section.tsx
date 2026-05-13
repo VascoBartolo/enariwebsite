@@ -204,11 +204,49 @@ function ModelFallback() {
   );
 }
 
+  type CameraSettings = {
+    position: [number, number, number];
+    fov: number;
+  };
+
+  const DESKTOP_CAMERA: CameraSettings = {
+    position: [0, 0.8, 15],
+    fov: 50,
+  };
+
+  const MOBILE_CAMERA: CameraSettings = {
+    // Adjust these freely for mobile
+    position: [6, 1.1, -5],
+    fov: 58,
+  };
+
+  function useIsMobile(breakpoint = 768) {
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+      const update = () => {
+        setIsMobile(window.innerWidth < breakpoint);
+      };
+
+      update();
+      window.addEventListener('resize', update);
+
+      return () => {
+        window.removeEventListener('resize', update);
+      };
+    }, [breakpoint]);
+
+    return isMobile;
+  }
+
 function ProductModelViewer() {
+  const isMobile = useIsMobile();
+  const camera = isMobile ? MOBILE_CAMERA : DESKTOP_CAMERA;
+
   return (
     <Canvas
       className="absolute inset-0 z-[2]"
-      dpr={[1, 1.25]}
+      dpr={isMobile ? [1, 1] : [1, 1.25]}
       gl={{
         alpha: true,
         antialias: true,
@@ -216,15 +254,19 @@ function ProductModelViewer() {
         preserveDrawingBuffer: false,
       }}
       camera={{
-        position: [0, 0.8, 15],
-        fov: 50,
+        position: camera.position,
+        fov: camera.fov,
       }}
       onCreated={({ gl, scene }) => {
         gl.setClearColor(0x000000, 0);
         scene.background = null;
       }}
     >
-      <PerspectiveCamera makeDefault position={[0, 0.8, 15]} fov={50} />
+      <PerspectiveCamera
+        makeDefault
+        position={camera.position}
+        fov={camera.fov}
+      />
 
       <ambientLight intensity={1.15} />
       <directionalLight position={[4, 5, 6]} intensity={2.0} />
@@ -237,7 +279,7 @@ function ProductModelViewer() {
           <EITAssemblyModel />
         </Center>
 
-        <Environment preset="city" resolution={64} />
+        <Environment preset="city" resolution={isMobile ? 32 : 64} />
       </Suspense>
 
       <OrbitControls
@@ -245,7 +287,7 @@ function ProductModelViewer() {
         enablePan={false}
         enableDamping
         dampingFactor={0.08}
-        rotateSpeed={0.32}
+        rotateSpeed={isMobile ? 0.24 : 0.32}
         minPolarAngle={Math.PI / 3}
         maxPolarAngle={Math.PI / 1.75}
       />

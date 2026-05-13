@@ -7,7 +7,10 @@
       "Bash(pkill -f \"next dev\")",
       "Bash(rm -rf .next node_modules/.cache)",
       "Bash(curl -s -o /dev/null -w \"Status: %{http_code}\\\\n\" http://localhost:3000/)",
-      "Bash(Get-Content *)"
+      "Bash(Get-Content *)",
+      "Bash(node *)",
+      "Bash(npm run *)",
+      "PowerShell(Get-ChildItem \"D:\\\\Enari\\\\enariwebsite\\\\node_modules\\\\three\" | Where-Object {-not $_.PSIsContainer} | Select-Object Name | Format-Table)"
     ]
   }
 }
