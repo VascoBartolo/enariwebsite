@@ -43,7 +43,7 @@ export function Footer() {
           <motion.div variants={fadeUp} className="col-span-2 md:col-span-1">
             <Link href="/" className="inline-flex mb-6">
               <Image
-                src="/Enari_logo.png"
+                src="/Enari_logo-removebg-preview.png"
                 alt="Enari"
                 width={100}
                 height={34}
