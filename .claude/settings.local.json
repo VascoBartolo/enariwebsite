@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Set-Location \"D:\\\\Enari\\\\enariwebsite\"; $env:NODE_ENV=\"development\"; npx next dev --turbopack 2>&1 | Select-Object -First 30)",
+      "Bash(npx next *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(rm -rf .next node_modules/.cache)",
+      "Bash(curl -s -o /dev/null -w \"Status: %{http_code}\\\\n\" http://localhost:3000/)"
+    ]
+  }
+}
