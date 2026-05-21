@@ -10,10 +10,10 @@ import { cn } from '@/lib/utils';
 
 const serviceLinks = [
   { label: 'Data ROI Pit Stop',    href: '/services/data-roi',                                        icon: TrendingUp, desc: 'Fast feasibility & ROI evaluation' },
-  { label: 'Data Analytics & BI',  href: '/services/enari-services-datenanalyse',                     icon: BarChart2,  desc: 'Dashboards, KPIs, reporting' },
-  { label: 'Data Engineering',     href: '/services/data-engineering-und-data-warehouse-consulting',  icon: Database,   desc: 'Pipelines, warehouses, ETL/ELT' },
-  { label: 'DevOps & Cloud',       href: '/services/devops-und-cloud-infrastruktur-consulting',       icon: Cloud,      desc: 'CI/CD, Kubernetes, Terraform' },
-  { label: 'AI & MLOps',           href: '/services/kuenstliche-intelligenz-und-mlops',               icon: Brain,      desc: 'Models, deployment, retraining' },
+  { label: 'Data Analytics & BI',  href: '/services/data-analytics-and-bi',              icon: BarChart2,  desc: 'Dashboards, KPIs, reporting' },
+  { label: 'Data Engineering',     href: '/services/data-engineering-and-data-warehouse', icon: Database,   desc: 'Pipelines, warehouses, ETL/ELT' },
+  { label: 'DevOps & Cloud',       href: '/services/devops-and-cloud-infrastructure',     icon: Cloud,      desc: 'CI/CD, Kubernetes, Terraform' },
+  { label: 'AI & MLOps',           href: '/services/ai-and-mlops',                        icon: Brain,      desc: 'Models, deployment, retraining' },
   { label: 'Case Studies',         href: '/services/case-studies',                                    icon: Award,      desc: 'Proven results in production' },
 ];
 

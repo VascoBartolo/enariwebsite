@@ -9,7 +9,7 @@ import { fadeUp, stagger, viewport } from '@/lib/motion';
 
 const articles = [
   {
-    slug: '/datenqualitat-definition-was-ist-datenqualitat',
+    slug: '/data-quality-definition',
     category: 'Data Management',
     categoryVariant: 'blue' as const,
     title: 'Data Quality: Definition & What It Really Means',
@@ -18,7 +18,7 @@ const articles = [
     readTime: '6 min read',
   },
   {
-    slug: '/etl-definition-und-uberblick',
+    slug: '/etl-definition-and-overview',
     category: 'Data Engineering',
     categoryVariant: 'blue' as const,
     title: 'ETL: Definition and Overview',
@@ -27,7 +27,7 @@ const articles = [
     readTime: '7 min read',
   },
   {
-    slug: '/data-mesh-vs-data-spaces-was-ist-der-unterschied',
+    slug: '/data-mesh-vs-data-spaces',
     category: 'Architecture',
     categoryVariant: 'warm' as const,
     title: 'Data Mesh vs. Data Spaces: What\'s the Difference?',
@@ -36,7 +36,7 @@ const articles = [
     readTime: '8 min read',
   },
   {
-    slug: '/data-mesh-idee-und-ursprung',
+    slug: '/data-mesh-idea-and-origin',
     category: 'Architecture',
     categoryVariant: 'warm' as const,
     title: 'Data Mesh: Idea & Origin',
@@ -45,7 +45,7 @@ const articles = [
     readTime: '6 min read',
   },
   {
-    slug: '/data-mesh-prinzipien',
+    slug: '/data-mesh-principles',
     category: 'Architecture',
     categoryVariant: 'warm' as const,
     title: 'The Core Principles of Data Mesh',
@@ -54,7 +54,7 @@ const articles = [
     readTime: '7 min read',
   },
   {
-    slug: '/datenprodukte-in-data-mesh-infrastruktur',
+    slug: '/data-products-in-data-mesh',
     category: 'Data Products',
     categoryVariant: 'blue' as const,
     title: 'Data Products in Data Mesh Infrastructure',

@@ -44,9 +44,9 @@ const technology = [
 ];
 
 const relatedArticles = [
-  { href: '/data-mesh-prinzipien',   label: 'The Core Principles of Data Mesh' },
-  { href: '/data-mesh-idee-und-ursprung', label: 'Data Mesh: Idea & Origin' },
-  { href: '/etl-definition-und-uberblick', label: 'ETL: Definition & Overview' },
+  { href: '/data-mesh-principles',     label: 'The Core Principles of Data Mesh' },
+  { href: '/data-mesh-idea-and-origin', label: 'Data Mesh: Idea & Origin' },
+  { href: '/etl-definition-and-overview', label: 'ETL: Definition & Overview' },
 ];
 
 export default function DatenprodukteDataMeshPage() {

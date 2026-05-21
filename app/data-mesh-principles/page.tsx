@@ -67,9 +67,9 @@ const principles = [
 ];
 
 const relatedArticles = [
-  { href: '/data-mesh-idee-und-ursprung',              label: 'Data Mesh: Idea & Origin' },
-  { href: '/datenprodukte-in-data-mesh-infrastruktur', label: 'Data Products in Data Mesh' },
-  { href: '/data-mesh-vs-data-spaces-was-ist-der-unterschied', label: 'Data Mesh vs. Data Spaces' },
+  { href: '/data-mesh-idea-and-origin',  label: 'Data Mesh: Idea & Origin' },
+  { href: '/data-products-in-data-mesh', label: 'Data Products in Data Mesh' },
+  { href: '/data-mesh-vs-data-spaces',   label: 'Data Mesh vs. Data Spaces' },
 ];
 
 export default function DataMeshPrinzipienPage() {

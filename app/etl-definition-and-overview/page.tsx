@@ -50,8 +50,8 @@ const challenges = [
 ];
 
 const relatedArticles = [
-  { href: '/datenqualitat-definition-was-ist-datenqualitat', label: 'Data Quality: Definition & What It Means' },
-  { href: '/datenprodukte-in-data-mesh-infrastruktur',       label: 'Data Products in Data Mesh Infrastructure' },
+  { href: '/data-quality-definition',      label: 'Data Quality: Definition & What It Means' },
+  { href: '/data-products-in-data-mesh',   label: 'Data Products in Data Mesh Infrastructure' },
 ];
 
 export default function EtlPage() {
@@ -243,7 +243,7 @@ export default function EtlPage() {
           <motion.div variants={fadeUp} className="glass-card rounded-2xl p-8 border border-enari-border mb-10">
             <p className="text-xs font-semibold text-enari-blue uppercase tracking-widest mb-3">Working with Enari</p>
             <p className="text-white/60 leading-relaxed">
-              Enari's data engineering service covers the full ETL/ELT lifecycle — from source system audit and pipeline design to testing, deployment, and operational monitoring. We work with dbt, Airflow, Spark, and the major cloud data warehouses. <Link href="/services/data-engineering-und-data-warehouse-consulting" className="text-enari-blue hover:text-white transition-colors">Learn more about our data engineering service →</Link>
+              Enari's data engineering service covers the full ETL/ELT lifecycle — from source system audit and pipeline design to testing, deployment, and operational monitoring. We work with dbt, Airflow, Spark, and the major cloud data warehouses. <Link href="/services/data-engineering-and-data-warehouse" className="text-enari-blue hover:text-white transition-colors">Learn more about our data engineering service →</Link>
             </p>
           </motion.div>
           <motion.div variants={fadeUp}>

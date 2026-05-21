@@ -16,10 +16,10 @@ const footerLinks = {
     { label: 'Contact',      href: '/#contact' },
   ],
   Services: [
-    { label: 'Data Analytics & BI',     href: '/services/enari-services-datenanalyse' },
-    { label: 'Data Engineering',        href: '/services/data-engineering-und-data-warehouse-consulting' },
-    { label: 'DevOps & Cloud',          href: '/services/devops-und-cloud-infrastruktur-consulting' },
-    { label: 'AI & MLOps',              href: '/services/kuenstliche-intelligenz-und-mlops' },
+    { label: 'Data Analytics & BI',     href: '/services/data-analytics-and-bi' },
+    { label: 'Data Engineering',        href: '/services/data-engineering-and-data-warehouse' },
+    { label: 'DevOps & Cloud',          href: '/services/devops-and-cloud-infrastructure' },
+    { label: 'AI & MLOps',              href: '/services/ai-and-mlops' },
     { label: 'Data ROI Pit Stop',       href: '/services/data-roi' },
   ],
 };

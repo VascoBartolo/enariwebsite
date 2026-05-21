@@ -65,9 +65,9 @@ const useCases = [
 ];
 
 const relatedArticles = [
-  { href: '/data-mesh-idee-und-ursprung',            label: 'Data Mesh: Idea & Origin' },
-  { href: '/data-mesh-prinzipien',                   label: 'The Core Principles of Data Mesh' },
-  { href: '/datenprodukte-in-data-mesh-infrastruktur', label: 'Data Products in Data Mesh' },
+  { href: '/data-mesh-idea-and-origin',  label: 'Data Mesh: Idea & Origin' },
+  { href: '/data-mesh-principles',       label: 'The Core Principles of Data Mesh' },
+  { href: '/data-products-in-data-mesh', label: 'Data Products in Data Mesh' },
 ];
 
 export default function DataMeshVsDataSpacesPage() {

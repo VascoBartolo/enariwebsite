@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { Activity, Code2, Database, Cloud, ArrowRight } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
@@ -17,6 +18,8 @@ const services = [
     border: 'hover:border-enari-blue/40',
     glow: 'group-hover:bg-enari-blue/5',
     badgeVariant: 'blue' as const,
+    href: 'https://thonos.enari.com/',
+    external: true,
   },
   {
     icon: Code2,
@@ -29,6 +32,8 @@ const services = [
     border: 'hover:border-enari-warm/40',
     glow: 'group-hover:bg-enari-warm/5',
     badgeVariant: 'warm' as const,
+    href: '/services/ai-and-mlops',
+    external: false,
   },
   {
     icon: Database,
@@ -41,6 +46,8 @@ const services = [
     border: 'hover:border-enari-blue/40',
     glow: 'group-hover:bg-enari-blue/5',
     badgeVariant: 'blue' as const,
+    href: '/services/data-engineering-and-data-warehouse',
+    external: false,
   },
   {
     icon: Cloud,
@@ -53,6 +60,8 @@ const services = [
     border: 'hover:border-enari-warm/40',
     glow: 'group-hover:bg-enari-warm/5',
     badgeVariant: 'warm' as const,
+    href: '/services/devops-and-cloud-infrastructure',
+    external: false,
   },
 ];
 
@@ -99,7 +108,7 @@ export function ServicesSection() {
           whileInView="visible"
           viewport={viewport}
         >
-          {services.map(({ icon: Icon, badge, title, description, features, accent, border, glow, badgeVariant }) => (
+          {services.map(({ icon: Icon, badge, title, description, features, accent, border, glow, badgeVariant, href, external }) => (
             <motion.div
               key={title}
               variants={fadeUp}
@@ -123,9 +132,23 @@ export function ServicesSection() {
                     </span>
                   ))}
                 </div>
-                <button className={`flex items-center gap-2 text-sm font-semibold ${accent} opacity-0 group-hover:opacity-100 transition-all duration-300 -translate-x-2 group-hover:translate-x-0`}>
-                  Learn more <ArrowRight size={14} />
-                </button>
+                {external ? (
+                  <a
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`flex items-center gap-2 text-sm font-semibold ${accent} opacity-0 group-hover:opacity-100 transition-all duration-300 -translate-x-2 group-hover:translate-x-0`}
+                  >
+                    Learn more <ArrowRight size={14} />
+                  </a>
+                ) : (
+                  <Link
+                    href={href}
+                    className={`flex items-center gap-2 text-sm font-semibold ${accent} opacity-0 group-hover:opacity-100 transition-all duration-300 -translate-x-2 group-hover:translate-x-0`}
+                  >
+                    Learn more <ArrowRight size={14} />
+                  </Link>
+                )}
               </div>
             </motion.div>
           ))}

@@ -55,10 +55,10 @@ const caseStudies = [
 ];
 
 const servicePathways = [
-  { icon: BarChart2, label: 'Data Analytics & BI',       href: '/services/enari-services-datenanalyse', accent: 'enari-blue' },
-  { icon: Database,  label: 'Data Engineering',           href: '/services/data-engineering-und-data-warehouse-consulting', accent: 'enari-blue' },
-  { icon: Cloud,     label: 'DevOps & Cloud Infrastructure', href: '/services/devops-und-cloud-infrastruktur-consulting', accent: 'enari-warm' },
-  { icon: Cpu,       label: 'AI & MLOps',                 href: '/services/kuenstliche-intelligenz-und-mlops', accent: 'enari-warm' },
+  { icon: BarChart2, label: 'Data Analytics & BI',          href: '/services/data-analytics-and-bi',              accent: 'enari-blue' },
+  { icon: Database,  label: 'Data Engineering',            href: '/services/data-engineering-and-data-warehouse', accent: 'enari-blue' },
+  { icon: Cloud,     label: 'DevOps & Cloud Infrastructure', href: '/services/devops-and-cloud-infrastructure',   accent: 'enari-warm' },
+  { icon: Cpu,       label: 'AI & MLOps',                  href: '/services/ai-and-mlops',                       accent: 'enari-warm' },
 ];
 
 export default function CaseStudiesPage() {

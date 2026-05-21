@@ -45,9 +45,9 @@ const challenges = [
 ];
 
 const relatedArticles = [
-  { href: '/data-mesh-prinzipien',                     label: 'The Core Principles of Data Mesh' },
-  { href: '/datenprodukte-in-data-mesh-infrastruktur', label: 'Data Products in Data Mesh' },
-  { href: '/data-mesh-vs-data-spaces-was-ist-der-unterschied', label: 'Data Mesh vs. Data Spaces' },
+  { href: '/data-mesh-principles',       label: 'The Core Principles of Data Mesh' },
+  { href: '/data-products-in-data-mesh', label: 'Data Products in Data Mesh' },
+  { href: '/data-mesh-vs-data-spaces',   label: 'Data Mesh vs. Data Spaces' },
 ];
 
 export default function DataMeshOriginPage() {

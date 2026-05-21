@@ -52,8 +52,8 @@ const damages = [
 ];
 
 const relatedArticles = [
-  { href: '/etl-definition-und-uberblick',           label: 'ETL: Definition & Overview' },
-  { href: '/datenprodukte-in-data-mesh-infrastruktur', label: 'Data Products in Data Mesh' },
+  { href: '/etl-definition-and-overview',    label: 'ETL: Definition & Overview' },
+  { href: '/data-products-in-data-mesh',     label: 'Data Products in Data Mesh' },
 ];
 
 export default function DatenqualitatPage() {
