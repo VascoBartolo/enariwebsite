@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { fadeUp, stagger, viewport } from '@/lib/motion';
 
 const stats = [
-  { value: '95%',  label: 'Long-term client partnerships' },
+  { value: '98%',  label: 'Long-term client partnerships' },
   { value: '4',    label: 'Core technology domains' },
   { value: '100+', label: 'Athletes & teams worldwide' },
   { value: '24/7', label: 'Cloud uptime guarantee' },
