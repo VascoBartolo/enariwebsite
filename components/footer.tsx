@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Linkedin } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { fadeUp, stagger, viewport } from '@/lib/motion';
 
@@ -25,9 +25,7 @@ const footerLinks = {
 };
 
 const socials = [
-  { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-  { icon: Github,   href: 'https://github.com',   label: 'GitHub' },
-  { icon: Twitter,  href: 'https://twitter.com',  label: 'Twitter' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/company/enarigmbh/posts/?feedView=all', label: 'LinkedIn' },
 ];
 
 export function Footer() {

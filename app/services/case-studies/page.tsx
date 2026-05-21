@@ -12,7 +12,7 @@ import { ContactCta } from '@/components/contact-cta';
 import { fadeUp, fadeLeft, fadeRight, stagger, viewport } from '@/lib/motion';
 
 const stats = [
-  { value: '72%', label: 'of clients choose long-term collaboration' },
+  { value: '98%', label: 'of clients choose long-term collaboration' },
   { value: '4',   label: 'core service domains' },
   { value: '100%', label: 'ROI-focused delivery' },
 ];

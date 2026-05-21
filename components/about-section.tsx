@@ -20,7 +20,7 @@ const values = [
   {
     icon: Users,
     title: 'Long-term Partnership',
-    desc: '72% of our clients stay with us for years. We grow with you, not just for you.',
+    desc: '98% of our clients stay with us for years. We grow with you, not just for you.',
   },
 ];
 
@@ -56,20 +56,20 @@ export function AboutSection() {
                 alt="Enari technology"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
-                className="object-cover"
+                style={{ objectFit: 'contain' }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#060608] via-transparent to-transparent" />
             </div>
 
             {/* Floating stat card */}
             <div className="absolute -bottom-6 -right-6 glass-card rounded-2xl p-5 border border-enari-border hidden lg:block">
-              <p className="text-4xl font-bold text-white">72%</p>
+              <p className="text-4xl font-bold text-white">98%</p>
               <p className="text-xs text-white/40 mt-1 uppercase tracking-widest">Long-term clients</p>
               <div className="mt-3 flex gap-1">
                 {Array.from({ length: 10 }).map((_, i) => (
                   <div
                     key={i}
-                    className={`h-1.5 rounded-full flex-1 ${i < 7 ? 'bg-enari-blue' : 'bg-white/10'}`}
+                    className={`h-1.5 rounded-full flex-1 ${i < 9 ? 'bg-enari-blue' : 'bg-white/10'}`}
                   />
                 ))}
               </div>
