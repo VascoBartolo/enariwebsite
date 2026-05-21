@@ -52,7 +52,7 @@ export function AboutSection() {
           >
             <div className="relative rounded-3xl overflow-hidden aspect-[4/5] bg-surface-elevated border border-enari-border">
               <Image
-                src="/images/Picture1.png"
+                src="/images/enari_team.jpeg"
                 alt="Enari technology"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
