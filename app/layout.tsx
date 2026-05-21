@@ -14,6 +14,7 @@ const aeonik = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.enari.com'),
   title: 'Enari — Sport Biotech & Technology',
   description:
     'Pioneering sport biotech, software development, data infrastructure and cloud engineering for the next generation of athletes.',
@@ -28,6 +29,22 @@ export const metadata: Metadata = {
     title: 'Enari — Sport Biotech & Technology',
     description: 'Engineering human performance through precision biotech and cutting-edge technology.',
     type: 'website',
+    url: 'https://www.enari.com',
+    siteName: 'Enari',
+    images: [
+      {
+        url: '/opengraph-image',
+        width: 1200,
+        height: 630,
+        alt: 'Enari — Sport Biotech & Technology',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Enari — Sport Biotech & Technology',
+    description: 'Engineering human performance through precision biotech and cutting-edge technology.',
+    images: ['/opengraph-image'],
   },
 };
 

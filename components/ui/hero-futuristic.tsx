@@ -328,7 +328,7 @@ export const HeroFuturistic = () => {
           </div>
         </div>
 
-        <div className="text-xs md:text-lg xl:text-xl 2xl:text-2xl mt-4 overflow-hidden text-white/60 font-light normal-case tracking-wide">
+        <div className="text-xs md:text-lg xl:text-xl 2xl:text-2xl mt-4 overflow-hidden gradient-text font-bold normal-case tracking-wide">
           <div
             className={subtitleVisible ? 'fade-in-subtitle' : ''}
             style={{
