@@ -56,7 +56,7 @@ export function AboutSection() {
                 alt="Enari technology"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
-                style={{ objectFit: 'contain' }}
+                style={{ objectFit: 'cover' }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#060608] via-transparent to-transparent" />
             </div>
